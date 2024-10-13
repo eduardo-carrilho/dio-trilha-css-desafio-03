@@ -1,0 +1,158 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    font-family: "Roboto";
+}
+
+body{
+    background-color: #F9F9F9;
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: calc(100vw - 48px);
+    z-index: 1;
+
+    height: 56px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: white;
+}
+.menu-esquerda{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+.botao-menu-lateral{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.logo{
+    width: 90px;
+    height: 20px;
+}
+
+.barra{
+    display: flex;
+}
+
+.barra-pesquisa{
+    width: 404px;
+    height: 40px;
+}
+
+.menu-direita{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.opcoes{
+    width: 24px;
+    height: 24px;
+}
+
+.avatar-usuario{
+    width: 34px;
+    height: 34px;
+    border-radius: 100px;
+}
+
+.pagina-principal{
+    display: flex;
+}
+
+.menu-lateral{
+    background-color: white;
+    position: fixed;
+    width: 218px;
+    height: 968px;
+    padding: 24px;
+    gap: 22px;
+    display: grid;
+    grid-template-rows: repeat(10, 24px);
+
+}
+
+.opcao{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+.opcao-titulo{
+    font-weight: 700;
+}
+
+.videos{
+    padding: 24px;
+    position: relative;
+    top: 57px;
+    left: 284px;
+    z-index: 0;
+
+    display: grid;
+    grid-template-columns: repeat(4, 282px);
+    grid-template-rows: repeat(3, 262px);
+    gap: 16px;
+    
+}
+
+.video-grid{
+    padding: 16px;
+    width: 282px;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.thumb{
+    width: 250px;
+    height: 140.29px;
+}
+
+.informacoes{
+    display: flex;
+    gap: 10px;
+}
+
+.logo-canal{
+    width: 42px;
+    height: 42px;
+    border-radius: 100px;
+}
+
+.texto-thumbs{
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;    
+}
+
+.titulo-thumbs{
+    font-size: 14px;
+    font-weight: 600;
+    text-wrap:balance;
+}
+
+.descricao-thumbs{
+    font-size: 12px;
+    font-weight: 400;
+}
+
